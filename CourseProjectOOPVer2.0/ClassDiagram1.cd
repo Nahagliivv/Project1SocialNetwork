@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CourseProjectOOPVer2._0.App" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.NavigateArgs" Collapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>NavigateArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Logic.AutoScrollBehavior" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAFACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\AutoScroll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Logic.ClearJournal" Collapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\ClearJournal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Logic.RichTextBoxHelper" Collapsed="true">
+    <Position X="39" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\RichTextBoxHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Logic.SaveAndLoadPicture" Collapsed="true">
+    <Position X="40.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAACAAAA=</HashCode>
+      <FileName>Logic\SaveAndLoadPicture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Logic.SendCodeToEmail" Collapsed="true">
+    <Position X="42.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Logic\SendCodeToEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.HashPassword" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Logic\HashPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.AllUsersVIewModel" Collapsed="true">
+    <Position X="32" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAgA=</HashCode>
+      <FileName>ViewModel\AllUsersVIewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.CheckCodeViewModel" Collapsed="true">
+    <Position X="29.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAAARAAQAAAAgAAQAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\CheckCodeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.CommentsViewModel" Collapsed="true">
+    <Position X="30.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAAEAQAAAAAAAAAAAwAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ViewModel\CommentsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.CreatePostViewModel" Collapsed="true">
+    <Position X="34.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABAAAACAAAAAAAAAAAAIAAAAgAAAAACAAAAQA=</HashCode>
+      <FileName>ViewModel\CreatePostViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.DelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAQACCAQQAAEQAAAAAAAAAAAAAAAAAAACAAEA=</HashCode>
+      <FileName>ViewModel\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.DelegateCommand&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAQACCAQQAAEQAAAAAAAAAAAAAAAAAAACAAEA=</HashCode>
+      <FileName>ViewModel\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.CommandManagerHelper" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ViewModel\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.DialogViewModel" Collapsed="true">
+    <Position X="31.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABBQAAAAGEAAAAAAQACABAAAQAAAQAAAAA=</HashCode>
+      <FileName>ViewModel\DialogViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.EditViewModel" Collapsed="true">
+    <Position X="36" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAACIQgAAAAVAAIAAAAAABAAAYIAEAAAAAAAAAAgAI=</HashCode>
+      <FileName>ViewModel\EditViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.FriendBoxViewModel" Collapsed="true">
+    <Position X="28.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAQACAgAAAQA=</HashCode>
+      <FileName>ViewModel\FriendBoxViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.FriendListViewModel" Collapsed="true">
+    <Position X="32" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAQAIIAAAQAAhAAQAAAACAgBAAiEAAAAAAEAAAAgAgA=</HashCode>
+      <FileName>ViewModel\FriendListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.FriendPageViewModel" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIAAkAAAAAABAABAAAAAAAAAAAAAAAgEAIAA=</HashCode>
+      <FileName>ViewModel\FriendPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.LoginViewModel" Collapsed="true">
+    <Position X="36.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAChAAgAgAAAgAAAIAAAAAAACAAIQAgAAEAA=</HashCode>
+      <FileName>ViewModel\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.MainViewModel" Collapsed="true">
+    <Position X="22.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.MasterViewModel" Collapsed="true">
+    <Position X="24.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGCAAIAAAAAAAABEAEAAAAABDQEAEAAISBAAUIAAgI=</HashCode>
+      <FileName>ViewModel\MasterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.MessageHistoryViewModel" Collapsed="true">
+    <Position X="29.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAEACAAAAAAAAAAAAQAAAAAAAAI=</HashCode>
+      <FileName>ViewModel\MessageHistoryViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.MessageListViewModel" Collapsed="true">
+    <Position X="33.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACAAgEAAAAAAAAAAAEAAAgAAACAAAhAAA=</HashCode>
+      <FileName>ViewModel\MessageListViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.MessageViewModel" Collapsed="true">
+    <Position X="38.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAQAIBYAAAAhAAgAAEAAAACAAgBIICQAQA=</HashCode>
+      <FileName>ViewModel\MessageViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.Password" Collapsed="true">
+    <Position X="42.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MyMultiConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.MyMultiConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MyMultiConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.NavigateViewModel" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>ViewModel\NavigateViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.NewsViewModel" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\NewsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.PageViewModel" Collapsed="true">
+    <Position X="24" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAABAQAAAECBAAMgAAKAAQAAIMKBAICAAAAAgEAAAI=</HashCode>
+      <FileName>ViewModel\PageViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.PostViewModel" Collapsed="true">
+    <Position X="27" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAgBAEAQIAAEAICAAAoABAAACBAAAAAAAABBCAABMAA=</HashCode>
+      <FileName>ViewModel\PostViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.RegViewModel" Collapsed="true">
+    <Position X="27.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEAACAAAAAIAAAADAAIAAAAAEAAAAIQAAAAEAA=</HashCode>
+      <FileName>ViewModel\RegViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.ViewModelBase" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.ViewModel.ViewModelLocator" Collapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelLocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Comment" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAHAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABCAAAAAA=</HashCode>
+      <FileName>Model\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.CurrentUser" Collapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIACAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\CurrentUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Dialog" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAAAAMAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Model\Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Friends" Collapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Friends.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.FriendsRequest" Collapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Model\FriendsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Img" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Img.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Like" Collapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAgBAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Like.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Message" Collapsed="true">
+    <Position X="39" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAACAAAQAAAAgAAAIAAAAAEAAACAAAAAA=</HashCode>
+      <FileName>Model\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Page" Collapsed="true">
+    <Position X="40.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAQQAAAABAAIBAAAAAAAAAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Page.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.Post" Collapsed="true">
+    <Position X="44.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAEAAEAAAAAAAAAgAAAAAAAAAACAAABCAAAAAA=</HashCode>
+      <FileName>Model\Post.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.User" Collapsed="true">
+    <Position X="46" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAEAABCAAABAIBAAAAAAAAAAAACACAACAAQEAJAA=</HashCode>
+      <FileName>Model\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Model.DB.DataBaseContext" Collapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAABAAAAAAABAAAAAAAAAAAAAgCAAAAAQEAIAI=</HashCode>
+      <FileName>Model\DB\DBContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Properties.Resources" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.Properties.Settings" Collapsed="true">
+    <Position X="44.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.AllUsersView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AllUsersView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.CheckCode" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\CheckCode.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.CommentView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\CommentView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.CommentWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\CommentWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.CreatePostView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\CreatePostView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.DialogPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\DialogPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.EditWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>View\EditWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.FriendBoxView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\FriendBoxView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.FriendListView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\FriendListView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.FriendPageView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\FriendPageView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.LoginPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\LoginPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.MasterWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MasterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.MessageHistoryView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MessageHistoryView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.MessageListView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MessageListView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.MessageView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MessageView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.MyPagePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MyPagePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.NewsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\NewsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.PostView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\PostView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CourseProjectOOPVer2._0.View.RegPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\RegPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="CourseProjectOOPVer2._0.Interfaces.IMessageHistoryRealization" Collapsed="true">
+    <Position X="39" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMessageHistoryRealization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseProjectOOPVer2._0.Interfaces.IMessageListRealization" Collapsed="true">
+    <Position X="40.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Interfaces\IMessageListRealization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseProjectOOPVer2._0.Interfaces.IMessageRealization" Collapsed="true">
+    <Position X="42.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IMessageRealization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseProjectOOPVer2._0.Interfaces.IPageRealization" Collapsed="true">
+    <Position X="44.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPageRealization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CourseProjectOOPVer2._0.Interfaces.IPostRealization" Collapsed="true">
+    <Position X="46" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAA=</HashCode>
+      <FileName>Interfaces\IPostRealization.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

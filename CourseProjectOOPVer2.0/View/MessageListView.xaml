@@ -1,0 +1,44 @@
+﻿<Page x:Class="CourseProjectOOPVer2._0.View.MessageListView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CourseProjectOOPVer2._0.View"
+      mc:Ignorable="d" 
+       d:DesignHeight="680" d:DesignWidth="1280"
+      Title="MyPagePage" Background="#B2F2D0">
+    <Page.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/styles/regbutton.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/styles/NostyleButton.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/styles/NonSelectedListView.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Page.Resources>
+    <Grid>
+        <ScrollViewer>
+            <Grid>
+                <Border Background="white" HorizontalAlignment="Center" Height="46" VerticalAlignment="Top" Width="602" Margin="339,10,322.2,0" CornerRadius="10">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="20" ShadowDepth="0" Opacity="0.8" />
+                    </Border.Effect>
+                    <Grid>
+                        <TextBox TextWrapping="Wrap" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Margin="10,10,61.6,9.4"/>
+                        <Button IsDefault = "true" Content="Найти" HorizontalAlignment="Left" Margin="545,10,0,0" VerticalAlignment="Top" Width="47" FontSize="12"  Height="27"  Background="#6BBF90" Padding="0" Foreground="White" Command="{Binding Search}"/>
+                    </Grid>
+                </Border>
+                <ListBox HorizontalAlignment="Center" Height="auto" VerticalAlignment="Top" Width="1260" ItemsSource="{Binding MessageHistory, Mode=TwoWay}" Margin="10,61,-6.8,0" HorizontalContentAlignment="Center" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <local:MessageHistoryView />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <Label Content="У вас пока нет сообщений..." HorizontalAlignment="Center" VerticalAlignment="Top" Margin="536,66,533.2,0" Visibility="{Binding MsgStatusVis}"/>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="CourseProjectOOPVer2._0.View.CreatePostView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProjectOOPVer2._0.View"
+        mc:Ignorable="d"
+        Title="Напишите что-нибудь..." Height="420.648" Width="333.153" WindowStyle="ToolWindow" ResizeMode="NoResize" >
+    <Grid Background="LightGray">
+        <TextBox HorizontalAlignment="Left" Height="323" Margin="10,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="300" Background="White" Text="{Binding PostText, Mode=TwoWay}"/>
+        <Button IsDefault = "true" Content="Отправить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Margin="10,338,0,0" Height="30" Foreground="White" Background="#6BBF90" Command="{Binding CreatePost}"/>
+    </Grid>
+</Window>

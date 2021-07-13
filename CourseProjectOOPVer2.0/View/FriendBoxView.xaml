@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="CourseProjectOOPVer2._0.View.FriendBoxView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CourseProjectOOPVer2._0.View"
+             mc:Ignorable="d" 
+              Height="100" d:DesignWidth="602">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/styles/nostylebutton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Border CornerRadius="10" Padding="5" Background="White" Height="auto" HorizontalAlignment="Center" Margin="0,0,-0.4,0.4" Width="602">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="20" ShadowDepth="0" Opacity="0.8" />
+        </Border.Effect>
+        <Grid>
+            <Ellipse Width="70" Height="70" Margin="10,10,512,9.6">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="{Binding ImageSource}" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Button  HorizontalContentAlignment="Right" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto" Margin="100,10,0,0" Height="16" Style="{StaticResource NonStyle}" Command="{Binding OpenUser}">
+                <Grid Height="21" Width="auto">
+                    <Label Content="{Binding UserName}" FontSize="12" Margin="0,-1,0,0" Padding="0"/>
+                </Grid>
+
+            </Button>
+            <Label Content="{Binding FriendStatus}" HorizontalAlignment="Right" Margin="0" VerticalAlignment="Top" Width="auto" HorizontalContentAlignment="Right"/>
+        </Grid>
+    </Border>
+</UserControl>

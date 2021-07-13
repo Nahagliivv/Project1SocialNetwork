@@ -1,0 +1,18 @@
+﻿<Window x:Class="CourseProjectOOPVer2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProjectOOPVer2._0"
+        mc:Ignorable="d"
+   Title="" Height="720" Width="1280" WindowStyle="None" WindowState="Maximized" MinHeight="720" MinWidth="1280" Icon="pack://application:,,,/logo1.png">
+    <Grid>
+        <Frame x:Name="MainFrame" Margin="0,40,-0.4,0.2" NavigationUIVisibility="Hidden" Source="LoginPage.xaml" ></Frame>
+        <Grid Background="#FF1C995A" HorizontalAlignment="Stretch" Height="40" VerticalAlignment="Top" Width="Auto" Margin="0,0,-0.4,0">
+            <Label Content="до связи" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,3,0,0" Height="30" FontSize="20" FontWeight="Bold" FontFamily="Trebuchet MS" />
+            <Image Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/CourseProjectOOPVer2.0;component/logo1.png" Stretch="Fill" Margin="120,0,0,0"/>
+        </Grid>
+        <Button Background="White" Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" Width="23" BorderBrush="Black" Margin="0,7,5.6,0" Height="25" Padding="0,0,0,0" Command="{Binding ShDw}" Foreground="Black"/>
+        <Button Background="White" Content="_" VerticalContentAlignment="Top" HorizontalAlignment="Right" VerticalAlignment="Top" Width="23" BorderBrush="Black" Margin="0,7,33.6,0" Height="25" Padding="0,0,0,0" Command="{Binding Min}" Foreground="Black"/>
+    </Grid>
+</Window>
